@@ -95,7 +95,7 @@ ai-chatbot-rag/
 
 ```mermaid
 graph TD
-    A[User Query] --> B[Retriever (FAISS/Chroma)]
+    A[User Query] --> B[Retriever (Chroma)]
     B --> C[Relevant Docs]
     C --> D[LLM (Ollama - Llama3)]
     D --> E[Response with Augmented Context]
