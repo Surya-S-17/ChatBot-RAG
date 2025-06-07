@@ -93,13 +93,17 @@ ai-chatbot-rag/
 
 ## 🧠 How It Works (RAG Pipeline)
 
-```mermaid
+<details> <summary><strong>📌 Click to view the RAG Pipeline Diagram</strong></summary>
+mermaid
+Copy
+Edit
 graph TD
     A[User Query] --> B[Retriever (Chroma)]
-    B --> C[Relevant Docs]
+    B --> C[Relevant Documents]
     C --> D[LLM (Ollama - Llama3)]
     D --> E[Response with Augmented Context]
-```
+</details>
+
 
 ---
 
